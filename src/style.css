@@ -1,0 +1,27 @@
+.btn-secondary {
+  background-color: #fd7e14 !important; /* Bootstrap orange */
+  border-color: #fd7e14 !important;
+  color: #fff !important;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #e8590c !important; /* darker orange for hover */
+  border-color: #e8590c !important;
+  color: #fff !important;
+}
+
+.bg-secondary {
+  background-color: #fd7e14 !important; /* Bootstrap orange */
+  border-color: #fd7e14 !important;
+  color: #fff !important;
+}
+
+.bg-yellow {
+  background-color: #ffc107 !important; /* Bootstrap warning yellow */
+  color: #212529 !important; /* dark text for contrast */
+}
+
+body {
+  padding-top: 60px;
+}
