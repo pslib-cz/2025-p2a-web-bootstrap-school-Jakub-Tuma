@@ -11,7 +11,7 @@
 
 <div class="container-fluid">
   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top border">
-    <div class="container">
+    <div class="container-fluid">
       <img src="public/images/logo.svg" alt="Logo" class="img-fluid" width="20" height="20">
       <a class="navbar-brand text-black" href="#">SOŠ Digital</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,40 +30,40 @@
   </nav>
 </div>
 
-  <section id="skola" class="bg-white py-5 mt-5">
+  <header class="py-5 bg-white">
     <div class="container-fluid">
-      <div class="row align-items-stretch">
-        <div class="col-md-6 d-flex flex-column justify-content-center">
-          <p><span class="badge bg-warning text-black">Fiktivní ukázkový Web</span></p>
+      <p><span class="badge bg-secondary text-black">Fiktivní ukázkový Web</span></p> 
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
           <h1>Střední odborná škola Digital</h1>
-          <p>Moderní vzdělávání v IT, designu a digitálních médiích. Studujte u nás, jsme vaše jednička!</p>
-
-          <div class="d-flex">
-            <div class="col-auto"> <a class="btn btn-primary" href="#obory"><span>Studijní obory</span></a> </div>
-            <div class="col-auto"> <a class="btn btn-light" href="#dotazy"><span>Nejčastější dotazy</span></a> </div>
+          <p>Moderní vzdělávání v IT, designu a digitálních médií<br> Studujte u nás, jsme
+            vaše <em>jednička</em>!</p>
+          <div class="row mb-3">
+            <div class="col-auto"><a role="button" class="btn btn-primary" href="#obory"><span>Studijní obory</span></a></div>
+            <div class="col-auto ps-0"><a role="button" class="btn btn-outline-secondary" href="#dotazy"><span>Nejčastější dotazy</span></a></div>
           </div>
-
-          <div class="row text-center">
-            <div class="col-4">
-              <h2>45 000+</h2>
-              <p>Absolventů</p>
+          <div class="row">
+            <div class="col-auto mt-1 mb-3">
+              <div class="fw-medium">45 000+</div>
+              <div class="text-secondary"><small>Absolventů</small></div>
             </div>
-            <div class="col-4">
-              <h2>150</h2>
-              <p>Let zkušeností</p>
+            <div class="col-auto mt-1 mb-3">
+              <div class="fw-medium">150</div>
+              <div class="text-secondary text-nowrap"><small>Let zkušeností</small></div>
             </div>
-            <div class="col-4">
-              <h2>99%</h2>
-              <p>Uplatnění</p>
+            <div class="col-auto mt-1 mb-3">
+              <div class="fw-medium">99%</div>
+              <div class="text-secondary"><small>Uplatnění</small></div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <img src="public/images/hero-image.webp" class="img-fluid rounded w-100 h-100" alt="">
+        <div class="col-lg-6">
+          <img src="/images/hero-image.webp" alt="Škola" class="img-fluid mb-3">
         </div>
       </div>
     </div>
-  </section>
+  </header>
 
   <section id="obory" class="bg-light py-5">
     <div class="container-fluid">
@@ -108,7 +108,7 @@
             <p>Zveme uchazeče a rodiče na prohlídku školy, laboratoří a ateliérů.</p>
             <div class="row align-items-center">
               <div class="col-6">
-                <span class="badge bg-warning">Aktualita</span>
+                <span class="badge bg-secondary">Aktualita</span>
               </div>
               <div class="col-6 text-end">
                 <a href="#">Číst více</a>
@@ -176,7 +176,7 @@
             <h3>Workshop – Základy UX</h3>
             <p>Ateliér A2, 14:00–17:00</p>
           </div>
-          <div class="col-3 text-end"><span class="badge bg-warning">Workshop</span></div>
+          <div class="col-3 text-end"><span class="badge bg-secondary">Workshop</span></div>
         </div>
 
         <div class="row align-items-center mb-3">
@@ -190,7 +190,7 @@
             <h3>Přednáška – Kyberbezpečnost v praxi</h3>
             <p>Aula, 10:00</p>
           </div>
-          <div class="col-3 text-end"><span class="badge bg-warning text-black">Přednáška</span></div>
+          <div class="col-3 text-end"><span class="badge bg-secondary text-black">Přednáška</span></div>
         </div>
 
         <div class="row align-items-center mb-2">
@@ -279,7 +279,7 @@
         </div>
       </div>
       <div class="col-md-5 d-flex flex-column justify-content-center">
-        <div id="prihlaska" class="p-5 bg-warning rounded border mt-4 text-white">
+        <div id="prihlaska" class="p-5 bg-secondary rounded border mt-4 text-white">
           <h3>Přihlas se na SOŠ Digital</h3>
           <p>Staň se součásí kreativní a technologické komunity. Přihlášky přijímáme online.</p>
           <button class="btn btn-light">Vyplnit přihlášku</button>
